@@ -83,6 +83,20 @@
       "url": "https://www.youtube.com/embed/IGFSiBJIXFQ",
       "imagem": "https://purr.objects-us-east-1.dream.io/i/OoNx6.jpg",
       "id": 12
+    },
+    {
+      "titulo": "baNaNa | Memes do JavaScript #2",
+      "descricao": "6 mil vizualizações",
+      "url": "https://www.youtube.com/embed/HBVCsBtsmzA",
+      "imagem": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 13
+    },
+    {
+      "titulo": "Guia Completo de Instalação do Flutter no Windows | VSCode e Android Studio",
+      "descricao": "4 mil vizualizações",
+      "url": "https://www.youtube.com/embed/wcO-Et_jpeo",
+      "imagem": "https://yt3.googleusercontent.com/jLT6ZPrQPcGf0cIQalX5hkZeJ_o2OeltVKtQ4MheR3cclIcKjvM2Fl-Nk4gk4ay2ZX-blBTd7Q=s176-c-k-c0x00ffffff-no-rj",
+      "id": 14
     }
   ]
 }
