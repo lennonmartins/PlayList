@@ -11,7 +11,7 @@ async function adicionaVideo(titulo, descricao, url, imagem) {
   const conexao = await fetch(urlApi, {
     method: "POST",
     headers: {
-      "Content-type": "application/json"
+      "Content-type": "application/json",
     },
     body: JSON.stringify({
       titulo: titulo,
@@ -24,8 +24,16 @@ async function adicionaVideo(titulo, descricao, url, imagem) {
   const conexaoConvertida = conexao.json();
   return conexaoConvertida;
 }
+
+async function buscaVideos(termoDeBusca) {
+  const conexao = await fetch(urlApi + `?q=${termoDeBusca}`);
+
+  const conexaoConvertida =  await conexao.json();
+  return conexaoConvertida;
+}
 //exportando a função como parametro
 export const conectaApi = {
   listaVideos,
   adicionaVideo,
+  buscaVideos,
 };
