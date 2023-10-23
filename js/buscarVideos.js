@@ -22,6 +22,9 @@ async function buscarVideosPorTermo(evento) {
       )
     )
   );
+  if(videosRetornado == 0){
+    lista.innerHTML = `<h2 class="mensagem__titulo">Ahh que pena!! Ainda não temos nenhum víedo com esse assunto... :(</h2>`
+  }
 }
 
 const botaoDePesquisa = document.querySelector("[data-botao-pesquisa]");
